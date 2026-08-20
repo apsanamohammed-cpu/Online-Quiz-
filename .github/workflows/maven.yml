@@ -22,6 +22,6 @@ jobs:
 
       - name: Build with Maven
         run: |
-          POM="pom.xml"
+          POM="Pom.xml"
           echo "Using POM: $POM"
           mvn -B package --file "$POM"
